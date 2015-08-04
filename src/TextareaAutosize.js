@@ -50,8 +50,8 @@ export default class TextareaAutosize extends React.Component {
   }
 
   static defaultProps = {
-    onChange: emptyFunction,
-    onHeightChange: emptyFunction,
+    onChange: function() {},
+    onHeightChange: function() {},
     useCacheForDOMMeasurements: false
   }
 
